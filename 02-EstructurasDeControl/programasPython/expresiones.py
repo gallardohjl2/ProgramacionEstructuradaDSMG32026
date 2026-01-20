@@ -23,15 +23,20 @@ print(salida)
 """
 # Interpolación de Strings
 
+# Expresiones Relacionales
+
+valor = 4 + 5 > 23
+print(valor) 
+
 salida  = f"""
-           ===== Expresiones Aritméticas =====
-           La suma es: {suma}
-           La resta es: { resta }
-           La Multiplicación es: { multi }
-           La División es: { div }
-           La División Entera es: { divEntera }
-           El modulo es: { mod }  
-           La potencia es: { potencia }  
+===== Expresiones Aritméticas =====
+La suma es: {suma}
+La resta es: { resta }
+La Multiplicación es: { multi }
+La División es: { div }
+La División Entera es: { divEntera }
+El modulo es: { mod }  
+La potencia es: { potencia }  
           """ 
 print(salida)
 
